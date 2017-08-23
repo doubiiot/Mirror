@@ -1,5 +1,10 @@
 # Mirror
 With MagicMirror, use pyqt to write a similar interface.
+在树莓派上安装好python3以及pyqt环境之后运行：
+'''
+sudo python3 mainwindow.py
+'''
+代码界面是按照显示屏尺寸800*480写的，是微雪7寸的显示屏。
 
 mainProject 文件夹是主要代码区，包括了各个日期、时间、天气以及句子模块。
 顶部的日期模块有一点小问题，代码可能比较累赘，因为天气的一个API里获取了一些日期的数据，应该有更简单的办法来获取。
