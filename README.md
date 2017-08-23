@@ -1,5 +1,9 @@
 # Mirror
 With MagicMirror, use pyqt to write a similar interface.
+项目地址：https://github.com/MichMich/MagicMirror
+原项目是用JavaScript写的，我对这个了解得不多，刚学了python然后有一点Qt的基础，然后就用了pyqt来写这个。
+
+运行：
 在树莓派上安装好python3以及pyqt环境之后运行：
 
 sudo python3 mainwindow.py
@@ -16,3 +20,5 @@ mainProject 文件夹是主要代码区，包括了各个日期、时间、天�
 server文件中包含了远程向服务器添加自定义语句以及服务器端接收的代码。
 
 另外，因为自己用的是七寸的显示屏，屏幕显示的内容有限暂时弄了这个界面，弄界面蛮麻烦的，后期考虑封装一下，更好的对界面以及内容进行增添和修改。
+
+各位大佬如果有什么想法或者意见，请指教一下。
