@@ -2,8 +2,7 @@ import socket
 import random
 import pymysql
 PORT = 6666
-pass_word = 'zuohao8787'
-#pass_word = '919824467'
+pass_word = '123456'
 def InsertIntoMysql(buff):
     ins_succ = 0
     try:
