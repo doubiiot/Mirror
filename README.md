@@ -1,7 +1,7 @@
 # Mirror
 ## With MagicMirror, use pyqt to write a similar interface.
-    项目地址：https://github.com/MichMich/MagicMirror<br>
-    博客地址：https://doubiiot.cn
+    项目地址：https://github.com/MichMich/MagicMirror <br>
+    博客地址：https://doubiiot.cn <br>
 原项目是用JavaScript写的，我对这个了解得不多，刚学了python然后有一点Qt的基础，然后就用了pyqt来写这个。<br>
 代码界面是按照显示屏尺寸800*480写的，是微雪7寸的显示屏。<br>
 
@@ -12,11 +12,11 @@ sudo python3 mainwindow.py
 ```
 
 ### mainProject 文件夹是主要代码区，包括了各个日期、时间、天气以及句子模块。
->>>*顶部的日期模块有一点小问题，代码可能比较累赘，因为天气的一个API里获取了一些日期的数据，应该有更简单的办法来获取。<br>
+>>> *顶部的日期模块有一点小问题，代码可能比较累赘，因为天气的一个API里获取了一些日期的数据，应该有更简单的办法来获取。<br>
 
->>>*天气接口一开始在阿里云找了一个接口，其实上面数据蛮全的，但是由于当时没有认真研究返回的json就换了和风天气的接口。<br>
+>>> *天气接口一开始在阿里云找了一个接口，其实上面数据蛮全的，但是由于当时没有认真研究返回的json就换了和风天气的接口。<br>
 
->>>*句子模块是从服务器端数据库定时读取数据显示在屏幕上。
+>>> *句子模块是从服务器端数据库定时读取数据显示在屏幕上。
 
 ### server文件中包含了远程向服务器添加自定义语句以及服务器端接收的代码。
 
