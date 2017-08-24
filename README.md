@@ -1,7 +1,7 @@
 # Mirror
 ## With MagicMirror, use pyqt to write a similar interface.
 
-    项目地址：https://github.com/MichMich/MagicMirror 
+    MagicMirror项目地址：https://github.com/MichMich/MagicMirror 
 
 原项目是用JavaScript写的，我对这个了解得不多，刚学了python然后有一点Qt的基础，然后就用了pyqt来写这个。<br>
 代码界面是按照显示屏尺寸800*480写的，是微雪7寸的显示屏。<br>
