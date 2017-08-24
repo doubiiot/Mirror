@@ -1,9 +1,8 @@
 # Mirror
 ## With MagicMirror, use pyqt to write a similar interface.
-```
+
     项目地址：https://github.com/MichMich/MagicMirror 
-    博客地址：https://doubiiot.cn 
-```    
+
 原项目是用JavaScript写的，我对这个了解得不多，刚学了python然后有一点Qt的基础，然后就用了pyqt来写这个。<br>
 代码界面是按照显示屏尺寸800*480写的，是微雪7寸的显示屏。<br>
 
@@ -31,3 +30,4 @@ sudo python3 server.py
 * 另外，因为自己用的是七寸的显示屏，屏幕显示的内容有限暂时弄了这个界面，弄界面蛮麻烦的，后期考虑封装一下，更好的对界面以及内容进行增添和修改。
 
 #### 各位大佬如果有什么想法或者意见，请指教一下。
+#### 博客地址：https://doubiiot.cn 
